@@ -18,7 +18,7 @@
 	<p><em> Select all that apply. </em></p>
 	<ul id="reasons"></ul>
 	<br />
-	<p> Give this URL to the person asking for help: <pre id="outputURL">https://legend-of-iphoenix.github.io/cant-help-you/?reason=0</pre><button id="Copy" onclick="copyText()">Copy link</button></p>
+	<p> Give this URL to the person asking for help: <pre id="outputURL">https://legend-of-iphoenix.github.io/cant-help-you/?reason=0</pre>&nbsp;&nbsp;&nbsp;<button id="Copy" onclick="copyText()" onmouseout="outFunc()"><span class="tooltiptext" id="myTooltip">Copy to clipboard</span>Copy link</button></p>
 	<p> Made by <a href="/">_iPhoenix_</a>.</p>
 	
 	<script type="text/javascript">
@@ -26,7 +26,14 @@
 			var copyText = document.getElementById("outputURL");
 			copyText.select();
 			document.execCommand("Copy");
-			alert("Copied!");
+			
+			var tooltip = document.getElementById("myTooltip");
+  			tooltip.innerHTML = "Copied!";
+		}
+		
+		function outFunc() {
+  			var tooltip = document.getElementById("myTooltip");
+ 			tooltip.innerHTML = "Copy to clipboard";		
 		}
 	</script>
 </body>
