@@ -29,7 +29,7 @@ h1 {
 }
 
 #outputURL {
-        position: fixed;
+        position: relative;
   	border: 1px solid;
   	border-radius: 5px;
  	padding: 5px;
@@ -37,4 +37,8 @@ h1 {
 	resize: none;
 	width: 315px;
 	height: 12px;
+}
+
+#giveurl {
+	display: inline-block;
 }
