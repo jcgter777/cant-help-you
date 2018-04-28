@@ -18,13 +18,9 @@
 	margin: 2px 5px;
 }
 
-h1, p, pre {
+h1, p {
 	width: fit-content;
 	margin: 0 auto;
-}
-
-pre {
-	font: 16px monospace;
 }
 
 h1 {
@@ -39,6 +35,6 @@ h1 {
  	padding: 5px;
   	margin: 5px;
 	resize: none;
-	width: -webkit-fill-available;
+	width: 315px;
 	height: 12px;
 }
