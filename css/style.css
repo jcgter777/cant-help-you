@@ -29,11 +29,11 @@ h1 {
 }
 
 #outputURL {
-        position: relative;
+    position: relative;
   	border: 1px solid;
   	border-radius: 5px;
  	padding: 5px;
-  	margin: 5px;
+  	margin-bottom: -7px;
 	resize: none;
 	width: 315px;
 	height: 12px;
@@ -41,4 +41,13 @@ h1 {
 
 #giveurl {
 	display: inline-block;
+	margin-left: 300px;
+}
+
+#Copy {
+	border: 1px solid;
+	border-radius: 5px;
+	padding: 5px;
+	margin-left: 3px;
+	background-color: #DCDCDC;
 }
