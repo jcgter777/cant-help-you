@@ -18,11 +18,14 @@
 	<p><em> Select all that apply. </em></p>
 	<ul id="reasons"></ul>
 	<br />
-	<div class="tooltip"> Give this URL to the person asking for help: <pre id="outputURL">https://legend-of-iphoenix.github.io/cant-help-you/?reason=0</pre>&nbsp;&nbsp;&nbsp;
-		<button id="Copy" onclick="copyText()" onmouseout="outFunc()">
-		<span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
-		Copy link
-	</button></div>
+	<p> Give this URL to the person asking for help: <pre id="outputURL">https://legend-of-iphoenix.github.io/cant-help-you/?reason=0</pre>&nbsp;&nbsp;&nbsp;
+		<div class="tooltip">
+			<button id="Copy" onclick="copyText()" onmouseout="outFunc()">
+			<span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+			Copy link
+			</button>
+		</div>
+	</p>
 	
 	<p> Made by <a href="/">_iPhoenix_</a>.</p>
 	<style>
@@ -78,7 +81,6 @@
   			var tooltip = document.getElementById("myTooltip");
   			tooltip.innerHTML = "Copy to clipboard";
 		}
-</script>
 	</script>
 </body>
 </html>
