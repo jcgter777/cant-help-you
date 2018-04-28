@@ -1,7 +1,6 @@
 * {
   	font-family: 'Ubuntu', sans-serif;
   	margin: auto auto;
-  	padding: auto;
 }
 
 #reasons {
@@ -29,7 +28,7 @@ h1 {
 }
 
 #outputURL {
-    position: relative;
+    	position: relative;
   	border: 1px solid;
   	border-radius: 5px;
  	padding: 5px;
