@@ -33,18 +33,12 @@ h1 {
 }
 
 #outputURL {
-        position: relative;
+        position: fixed;
   	border: 1px solid;
   	border-radius: 5px;
- 	padding: 2px;
+ 	padding: 5px;
   	margin: 5px;
-        left: 400px
-}
-
-#Copy {
-        position: relative;
-        left: 1000px;
-        border: 1px solid;
-        border-radius: 5px;
-        font-size: 105%;
+	resize: none;
+	width: -webkit-fill-available;
+	height: 12px;
 }
