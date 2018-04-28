@@ -15,10 +15,10 @@
 <body>
 	<h1> I'm not helping you right now. </h1>
 	<p> Generally, I like helping people with your projects but I am not going help you with your project for the following reasons:</p>
-	<p><em> Select all that apply. </em></p>
+	<p><em>Select all that apply.</em></p>
 	<ul id="reasons"></ul>
 	<br />
-	<p> Give this URL to the person asking for help: <pre id="outputURL">https://legend-of-iphoenix.github.io/cant-help-you/?reason=0</pre>&nbsp;&nbsp;&nbsp;
+	<p> Give this URL to the person asking for help: <textarea id="outputURL">https://legend-of-iphoenix.github.io/cant-help-you/?reason=0</textarea>&nbsp;&nbsp;&nbsp;
 		<div class="tooltip">
 			<button id="Copy" onclick="copyText()" onmouseout="outFunc()">
 			<span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
@@ -72,7 +72,6 @@
 			var copyText = document.getElementById("outputURL");
   			copyText.select();
   			document.execCommand("Copy");
-  
   			var tooltip = document.getElementById("myTooltip");
   			tooltip.innerHTML = "Copied!";
 		}
