@@ -34,7 +34,7 @@ function updateCreatorOutput(event) {
 	selected.forEach(function(reason, index) {
 		linkID[index] = ~~reason;
 	});
-	document.getElementById("outputURL").innerText = 'https://legend-of-iphoenix.github.io/cant-help-you/?reason='+parseInt(linkID.join(''), 2).toString(36);
+	document.getElementById("outputURL").innerText = 'https://jcgter777.github.io/cant-help-you/?reason='+parseInt(linkID.join(''), 2).toString(36);
 }
 
 window.onload = showCreator;
